@@ -2,4 +2,22 @@ html {
     height: 100%;
     width: 100%;
   }
+
+  .footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
   
+.autores{
+  list-style: none;
+  padding: 0;
+}
+.autores li{
+  margin: 5px 0;
+}
+.footer a {
+  color: #4da6ff;
+  text-decoration: none;
+}
