@@ -5,10 +5,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
+ 
+  <link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
-  Hello world
+
+<!--Navigation-->
+<nav>
+  <div class="nav-logo" onclick="showPage('home')">Java Generation Latam<span>.</span></div>
+  <ul class="nav-links">
+    <li><a href="Pagina-inicio.html" onclick="showPage('home'); return false;" id="nav-home" class="active">Home</a></li>
+    <li><a href="#" onclick="showPage('about'); return false;" id="nav-about">About Us</a></li>
+    <li><a href="#" onclick="showPage('contact'); return false;" id="nav-contact">Contact Us</a></li>
+  </ul>
+</nav>
 
   <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
