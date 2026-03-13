@@ -2,3 +2,38 @@ html {
     height: 100%;
     width: 100%;
   }
+  
+/* SECCION QUIENES SOMOS */
+
+.about {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* titulo principal */
+.about h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+/* subtitulos */
+.about h2 {
+    margin-top: 25px;
+    padding-left: 10px;
+    border-left: 4px solid #3498db;
+}
+
+/* parrafos */
+.about p {
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+/* separacion entre bloques */
+.about h2 + p {
+    margin-bottom: 15px;
+}
