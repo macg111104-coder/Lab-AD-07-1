@@ -1,0 +1,88 @@
+
+.about {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* titulo principal */
+.about h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+/* subtitulos */
+.about h2 {
+    margin-top: 25px;
+    padding-left: 10px;
+    border-left: 4px solid #3498db;
+}
+
+/* parrafos */
+.about p {
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+/* separacion entre bloques */
+.about h2 + p {
+    margin-bottom: 15px;
+}
+
+/* Pagina de contacto*/
+.contact-container{
+    max-width: 600px;
+    margin: 120px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+display: flex;
+flex-direction: column;   
+}
+
+form label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea{
+
+margin-top:5px;
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+
+}
+
+form button{
+
+margin-top:20px;
+padding:12px;
+background:#ff6a00;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+
+}
+
+form button:hover{
+background:#e55c00;
+}
+
+#respuesta{
+margin-top:15px;
+font-weight:bold;
+color:green;
+}
